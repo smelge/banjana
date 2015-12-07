@@ -1,0 +1,112 @@
+changelog
+===============
+
+31/7/15
+
+	* Added captions to Index images
+	* Turned index images and captions into links
+	* Added support.php to navigation
+	* Built basic Support page
+	
+1/8/15
+	
+	* Styling Events page
+	* Fixed Date issues on Events
+	* Added blog posts as collapsable areas
+	* Added comments display to blog posts
+	* Fixed Menu items going behind index slider
+	
+2/8/15
+
+	* Linked index.php ticker tape to relevant blog posts
+	* Improved events.php collapsing
+	* Added individual blog post page when linked from ticker tape
+	* Text displayed in case of 0 comments
+	* Basic commenting added
+	
+3/8/15
+
+	* events.php now shows excerpts
+	* events.php collapsing stories removed
+	* Index content can now be edited through CMS
+	* About Quote text can now be edited through CMS
+	
+4/8/15
+	
+	* Set up some media functions in CMS
+	* Carousel Images on Index can be added, edited or removed through CMS
+	* Carousel now auto-generating from CMS data
+	
+5/8/15
+	
+	* About page images and text now linked up to CMS
+	* Donation link on Index now goes to Giving.php
+	* Contact Page added
+	* Processing for contact form added
+	* Modal window to display email status added (Notify if sent or error)
+	
+7/8/15
+
+	* Cleaned up projects.php
+	* Linked up projects.php text areas to CMS
+	* Projects in support.php now in CMS
+	* Footer volunteer image/quote randomised
+	
+8/8/15
+
+	* Styled blog archive posts
+	
+9/8/15
+
+	* Added images to support pages
+	* added Banjana logo in header
+	* turned Banjana logo into link to index.php
+	* Changed footer icon for Justgiving
+	* Linked Twitter, Justgiving, Facebook links to relevant accounts
+	
+10/8/15
+
+	* LinkedIn link added to footer
+	* Fonts:
+		Heading - Cantata One(Serif)
+		Quotations - Sanchez(Serif)
+		Body Text - Lato(Sans-serif)
+	* Fixed blog postings appearing out of sequence
+	
+11/8/15
+
+	* Added login.php
+	* Ability to log in to Wordpress
+	* Added basic pagination to events.php
+	* Updated Wordpress homepage to display latest blog posts and menu for main site to allow navigation back from WP
+	* Updated login to direct straight to admin dashboard
+	* Fixed pagination for events.php
+	* Made events.php sidebar list unique dates
+	* Fixed alignment on comment numbers
+	
+12/8/15
+
+	* Removed archive sidebar from events.php
+	* Added includes/sidebar.php for sidebar code
+	* Added underline to blog titles
+	* events.php now returns specific months when clicking on archived months
+	* Removed underline from blog titles
+	* Back button from specific article goes back to pagination just left
+	* Back button now works if user came from specific month/year
+	* Added includes/comments.php to process comments on blog posts
+	* Removed Wordpress Comments
+	* Added Disqus comments system
+	* Configured Disqus
+	* Added quote to Support a Child on support.php
+	* Basic SEO done: requires final install to complete
+	
+To Do
+================
+all
+	- Operation Manual
+	
+giving.php
+	- Link for "Make a Donation" required
+	
+support.php
+	- Links to forms required
